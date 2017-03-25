@@ -1,28 +1,11 @@
-body {
-    background:#999;
-    font-family: arial;
+.darkBG {
+    background: #999;
 }
 
-h1, h2, p {
-    color: #555;
-}
-
-a {
-    color: green;
-}
-
-p {
+.darkerBG {
     background: #666;
-    color: white;
-    padding: 10px;
 }
 
-.secondary {
-    background: none;
-    color: saddlebrown;
-}
-
-#special {
-    background: none;
-    color: blue;
+.darkestBG {
+    background: #333;
 }
