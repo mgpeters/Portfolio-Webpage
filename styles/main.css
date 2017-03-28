@@ -9,3 +9,42 @@
 .darkestBG {
     background: #333;
 }
+
+.myPanel {
+    margin:3%;
+    border: 1px solid #687D6D;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px #CCC;
+}
+
+.myPanel .heading {
+    background: #86F0C4;
+    border: 1px 0 0 solid #687D6D;
+    border-radius: 5px 5px 0 0;
+    padding: 10px 20px;
+    color: #687D6D;
+
+}
+.myPanel .body {
+padding: 10px 20px;
+
+}
+
+.myPanel .showOnHover{
+    display: none;
+}
+
+.myPanel:hover {
+    box-shadow: 0px 0 px 8px black;
+    border: 2px solid #687D6D;
+    margin: 1% 3%;
+}
+
+.myPanel:hover .showOnHover {
+    display: inline-block;
+}
+
+p#main {
+    color: red;
+    font-size: 40px;
+}
