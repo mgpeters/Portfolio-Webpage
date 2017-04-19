@@ -4,7 +4,12 @@ body {
     background-attachment: fixed;
     background-position: center;
 }
-
+#about {
+    margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
+}
 /* Dropdown Button */
 .dropbtn {
     background-color: black;
@@ -49,3 +54,4 @@ body {
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+
