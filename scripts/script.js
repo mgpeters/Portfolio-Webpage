@@ -30,3 +30,8 @@ window.onclick = function(event) {
     }
   }
 }
+// JQuery 
+
+$ (".alert-btn").click(function()   {
+    alert("Hey There");
+});
