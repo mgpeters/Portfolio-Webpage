@@ -4,7 +4,8 @@ body {
     background-attachment: fixed;
     background-position: center;
 }
-#about {
+.about-content {
+    display: none;
     margin: auto;
     width: 50%;
     border: 3px solid black;

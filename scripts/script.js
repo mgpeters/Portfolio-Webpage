@@ -31,7 +31,13 @@ window.onclick = function(event) {
   }
 }
 // JQuery 
+$ (".about").click(function(){
+    $ (".about-content").show();
+});
 
 $ (".alert-btn").click(function()   {
-    alert("Hey There");
+    var name = $ ('.name-input').val();
+    alert("Hey there " + name);
+    $ (".name-input").val("");
 });
+
