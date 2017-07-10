@@ -7,3 +7,10 @@
 #third {
 	background-color: yellow;
 }
+
+.photos {  
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
