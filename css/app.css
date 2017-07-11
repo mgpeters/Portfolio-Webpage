@@ -1,11 +1,12 @@
 body {
-	background-color: F3F3F3;
+	background-color: #F3F3F3;
 }
 img {
 	padding: 20px 0px 20px 0px;
 }
-.head {
-
+.header {
+	color: #6C6C6C;
+	font-family: 'Ubuntu Condensed', sans-serif;
 }
 .photos {  
 	display: block;
@@ -13,5 +14,7 @@ img {
     margin-right: auto;
 }
 .text {
+	color: #6C6C6C;
+	font-family: 'Open Sans', sans-serif;
 	padding: 10px 40px 10px 40px;
 }
