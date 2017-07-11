@@ -6,7 +6,11 @@ img {
 }
 .header {
 	color: #6C6C6C;
+	font-size: 30px;
+	text-align: center;
 	font-family: 'Ubuntu Condensed', sans-serif;
+	height: 200px;
+	padding: 90px 0px 0px 0px;
 }
 .photos {  
 	display: block;
