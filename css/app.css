@@ -4,14 +4,10 @@ body {
 img {
 	padding: 20px 0px 20px 0px;
 }
-.header {
-	color: #6C6C6C;
-	font-size: 30px;
-	text-align: center;
-	font-family: 'Ubuntu Condensed', sans-serif;
-	height: 200px;
-	padding: 90px 0px 0px 0px;
-}
+/*.header {
+	display: block;
+	margin: 0 auto;
+}*/
 .photos {  
 	display: block;
     margin-left: auto;
@@ -21,4 +17,8 @@ img {
 	color: #6C6C6C;
 	font-family: 'Open Sans', sans-serif;
 	padding: 10px 40px 10px 40px;
+}
+#photo-header{
+	display: block;
+	margin: auto;
 }
