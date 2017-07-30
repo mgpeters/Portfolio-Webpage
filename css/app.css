@@ -53,9 +53,3 @@ img {
     visibility: hidden;
     z-index: 95;
 }
-#head-name{
-	height: 100px;
-}
-#head-text {
-	font-family: 'Open Sans', sans-serif;
-}
