@@ -1,13 +1,12 @@
 body {
-	/*background-color: #F3F3F3;*/
+	background-color: white;
 }
 img {
 	padding: 20px 0px 20px 0px;
 }
-/*.header {
-	display: block;
-	margin: 0 auto;
-}*/
+.grid-container {
+	background-color: #F3F3F3;
+}
 .photos {  
 	display: block;
     margin-left: auto;
