@@ -35,10 +35,27 @@ img {
 .right{
 	float: right;
 }
+/*.menu.show {
+    opacity: 1;
+    visibility: visible;
+}*/
+.menu {
+    width: 100%;
+    height: 100%;
+    background: #efefef;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition: opacity 0.2s linear 0s;
+    visibility: hidden;
+    z-index: 95;
+}
 #head-name{
 	height: 100px;
 }
 #head-text {
 	font-family: 'Open Sans', sans-serif;
-	padding: 50px 0px 0px 0px;
 }
