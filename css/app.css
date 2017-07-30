@@ -26,9 +26,19 @@ img {
 	font-family: 'Open Sans', sans-serif;
 	padding: 10px 40px 10px 40px;
 }
+.header-body {
+	padding: 0px 0px 40px 0px;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
 #head-name{
 	height: 100px;
 }
 #head-text {
 	font-family: 'Open Sans', sans-serif;
 	padding: 50px 0px 0px 0px;
+}
