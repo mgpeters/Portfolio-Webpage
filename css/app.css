@@ -3,6 +3,9 @@ body {
 }
 img {
 	padding: 20px 0px 20px 0px;
+	max-width:70% !important;
+    height:auto;
+    display:block;
 }
 .grid-container {
 	background-color: #F3F3F3;
