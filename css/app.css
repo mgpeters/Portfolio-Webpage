@@ -26,7 +26,9 @@ img {
 	font-family: 'Open Sans', sans-serif;
 	padding: 10px 40px 10px 40px;
 }
-#photo-header{
-	display: block;
-	margin: auto;
+#head-name{
+	height: 100px;
 }
+#head-text {
+	font-family: 'Open Sans', sans-serif;
+	padding: 50px 0px 0px 0px;
