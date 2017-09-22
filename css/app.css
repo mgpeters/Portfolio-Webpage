@@ -7,7 +7,8 @@ img {
 .grid-container {
 	background-color: #F3F3F3;
 }
-.photos {  
+.photos { 
+    position: relative;
     max-width:75% !important;
     height:auto;
     display:block;
@@ -65,21 +66,25 @@ img {
     height: 105px;
  	float: left;
 }
-.img__description{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(29, 106, 154, 0.72);
-  color: #fff;
-  visibility: hidden;
-  opacity: 0;
-
-  /* transition effect. not necessary */
-  transition: opacity .2s, visibility .2s;
+/*Text Over Image CSS*/
+.text__over__img{
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .2s;
 }
-.photos:hover .img__description{
+
+.photos:hover .text__over__img {
     visibility: visible;
     opacity: 1;
 }
+
+
+
+
+
+
+
