@@ -41,15 +41,15 @@ img {
 .menu {
     width: 100%;
     height: 100%;
-    background: #610000;
+    background: #F0F0F0;
     bottom: 0;
     left: 0;
-    opacity: 0;
     position: fixed;
     right: 0;
     top: 0;
     transition: opacity 0.4s linear 0s;
-    visibility: hidden;
+    /*visibility: hidden;*/
+    opacity: 1;
     z-index: 95;
 }
 /* Menue Icon:*/
