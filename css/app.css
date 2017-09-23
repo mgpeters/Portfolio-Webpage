@@ -6,7 +6,6 @@ body {
 img {
 	padding: 25px 0px 25px 0px;
 }
-
 /* --- Class Attributes --- */
 .grid-container {
 	background-color: #F3F3F3;
@@ -35,6 +34,14 @@ img {
 .header-body {
 	padding: 0px 0px 40px 0px;
 }
+.logo-icon{
+    display: block;
+    width:130px; 
+    height: 175px;
+    top:0; bottom: 0; left: 0; right: 0; /*Centers inline elements (img)*/
+    margin: auto;
+    margin-top: 150px;
+}
 /* ID Attributes */
 #small-foot {
 	text-align: center;
@@ -43,9 +50,9 @@ img {
     position: relative;
 }
 #head-container {
-	height: 450px;
+	height: 500px;
 }
-#head-text {
+#head-image {
 	padding: 100px 0px 0px 0px;
 }
 #foot-icons {
