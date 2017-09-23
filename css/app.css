@@ -33,6 +33,7 @@ img {
 }
 .header-body {
 	padding: 0px 0px 40px 0px;
+    text-align: center;
 }
 .logo-icon{
     display: block;
