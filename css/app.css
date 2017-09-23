@@ -1,9 +1,13 @@
+
+/* --- Global Attributes --- */
 body {
 	background-color: #F0F0F0;
 }
 img {
 	padding: 25px 0px 25px 0px;
 }
+
+/* --- Class Attributes --- */
 .grid-container {
 	background-color: #F3F3F3;
 }
@@ -31,6 +35,7 @@ img {
 .header-body {
 	padding: 0px 0px 40px 0px;
 }
+/* ID Attributes */
 #small-foot {
 	text-align: center;
 }
@@ -51,6 +56,7 @@ img {
     height: 105px;
  	float: left;
 }
+
 /*Text Over Image CSS*/
 .text__over__img{
     position: absolute;
